@@ -1,0 +1,90 @@
+﻿.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h4 {
+    margin-top: 25px;
+}
+
+.event {
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+    .row .row {
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+[class*="col-"] {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /*background-color: #eee;*/
+    /*border: 1px solid #ddd;*/
+    /*background-color: rgba(86,61,124,.15);*/
+    /*border: 1px solid rgba(86,61,124,.2);*/
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* game summary */
+.gameSummary {
+    text-align: right;
+}
+
+    .gameSummary img.summaryIcon {
+        height: 14px;
+    }
+
+    .gameSummary .summaryText {
+    }
+
+.titleIcon {
+}
+
+/* menu */
+#menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+    #menu li {
+        display: inline;
+        margin-right: 0px;
+    }
+
+        #menu li:before {
+            content: "|";
+        }
+
+        #menu li:after {
+            content: "|";
+        }
+
+        #menu li a {
+            padding: 0px 15px;
+        }
+
+/*polls*/
+.poll {
+    border: 1px solid #ccc;
+    text-align:center;
+}
+
+.poll.single .hd{
+}
+
+.poll.single .bd{
+}
+
